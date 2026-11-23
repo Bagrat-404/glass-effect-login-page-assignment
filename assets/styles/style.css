@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Bold.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: radial-gradient(
+    58.43% 103.88% at 56.74% 50%,
+    #0085ff 0%,
+    #003465 100%
+  );
+
+  img.icon_1 {
+    position: absolute;
+    bottom: 0;
+    left: 94px;
+    width: 475.4679870605469;
+    height: 442.8795471191406;
+    opacity: 0.5;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_2 {
+    position: absolute;
+    bottom: 204.49px;
+    left: 589.76px;
+    width: 262.811767578125;
+    height: 262.68353271484375;
+    opacity: 1;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_3 {
+    position: absolute;
+    bottom: 251.89px;
+    left: 572.97px;
+    width: 162.7481231689453;
+    height: 107.83882141113281;
+    opacity: 1;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_4 {
+    position: absolute;
+    bottom: 535px;
+    left: 551px;
+    width: 110.83882904052734;
+    height: 60.129180908203125;
+    opacity: 1;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_5 {
+    position: absolute;
+    bottom: 613px;
+    left: 575px;
+    width: 173.9595947265625;
+    height: 94.28720092773438;
+    opacity: 1;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_6 {
+    position: absolute;
+    top: 0px;
+    left: 641px;
+    width: 145.04713762147452;
+    height: 145.0870989215419;
+    opacity: 0.5;
+  }
+  img.icon_7 {
+    position: absolute;
+    top: 100px;
+    left: 959px;
+    width: 475.4679870605469;
+    height: 442.8795471191406;
+    opacity: 1;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_8 {
+    position: absolute;
+    bottom: 355px;
+    left: 1183px;
+    width: 125.43173217773438;
+    height: 40.27039337158203;
+    opacity: 1;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_9 {
+    position: absolute;
+    bottom: 307px;
+    left: 1242px;
+    width: 125.37037658691406;
+    height: 40.33293151855469;
+    opacity: 1;
+    mix-blend-mode: Luminosity;
+  }
+  img.icon_10 {
+    position: absolute;
+    bottom: 122px;
+    left: 1437px;
+    width: 514.4042358398438;
+    height: 165.48414611816406;
+    opacity: 0.5;
+    mix-blend-mode: Luminosity;
+  }
+
+  section.hero {
+    width: 1366px;
+    height: 768px;
+    background: radial-gradient(
+      58.43% 103.88% at 56.74% 50%,
+      #0085ff 0%,
+      #003465 100%
+    );
+    box-shadow: 22px 35px 91px 0px #0000001a;
+    box-shadow: 89px 139px 165px 0px #00000017;
+    box-shadow: 200px 312px 223px 0px #0000000d;
+    box-shadow: 355px 556px 264px 0px #00000003;
+    box-shadow: 555px 868px 288px 0px #00000000;
+    border-radius: 24px;
+    display: grid;
+    place-items: center;
+    div.login {
+      display: flex;
+      width: 410px;
+      height: 557.6552124023438px;
+      background: #5882c147;
+      border: 2.13px solid;
+      border-image-source: linear-gradient(
+        135.59deg,
+        rgba(88, 130, 193, 0.49) 1.28%,
+        rgba(88, 130, 193, 0.11) 96.26%
+      );
+      backdrop-filter: blur(17.78645896911621px);
+      border-radius: 28.46px;
+      h2.logo {
+        color: #ffffff;
+        font-family: "Gilory";
+        font-size: 24px;
+        font-weight: 400;
+        margin: 40px auto 40px;
+      }
+    }
+  }
+}
