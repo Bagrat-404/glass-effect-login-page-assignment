@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("./assets/fonts/Gilroy-Bold.woff2") format("woff2");
+  src: url("./assets/fonts/Gilroy-Bold.woff2") format("woff");
 }
 
 * {
@@ -155,15 +155,45 @@ body {
         margin: 0 auto;
         gap: 24px;
 
-
         h3.form-title {
           color: #ffffff;
           font-family: "Gilory";
           font-size: 24px;
           font-weight: 400;
         }
-        form.login{
+        form.login {
+          display: flex;
+          flex-direction: column;
 
+          #email {
+            margin-bottom: 16px;
+          }
+
+          label {
+            margin-bottom: 8px;
+          }
+
+          #password {
+            margin-bottom: 10.6px;
+          }
+
+          input.btn {
+            margin: 24px 0;
+          }
+
+          h5 {
+            text-align: center;
+            margin-bottom: 24px;
+          }
+          div.social-btns {
+            display: flex;
+            justify-content: space-between;
+            button {
+              border-radius: 7.11px;
+              border-width: 0.71px;
+              padding: 9px 27.46px;
+            }
+          }
         }
       }
     }
