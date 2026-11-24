@@ -1,6 +1,21 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("./assets/fonts/Gilroy-Bold.woff2") format("woff");
+  src: url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
 * {
@@ -141,10 +156,12 @@ body {
       backdrop-filter: blur(17.78645896911621px);
       border-radius: 28.46px;
       h2.logo {
-        color: #ffffff;
-        font-family: "Gilory";
+        font-family: "Gilroy";
+        font-weight: 700;
         font-size: 24px;
-        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
         margin: 40px auto;
       }
       div.signin {
@@ -156,10 +173,12 @@ body {
         gap: 24px;
 
         h3.form-title {
-          color: #ffffff;
-          font-family: "Gilory";
+          font-family: "Gilroy";
+          font-weight: 700;
           font-size: 24px;
-          font-weight: 400;
+          line-height: 100%;
+          letter-spacing: 0%;
+          color: #ffffff;
         }
         form.login {
           display: flex;
@@ -171,6 +190,26 @@ body {
 
           label {
             margin-bottom: 8px;
+            font-family: "Gilroy";
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #ffffff;
+          }
+
+          input.data {
+            border-radius: 5px;
+            border: 0.71px solid #bcbec0;
+            padding: 8px 0 8px 16px;
+            font-family: "Gilroy";
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #bcbec0;
           }
 
           #password {
@@ -179,19 +218,70 @@ body {
 
           input.btn {
             margin: 24px 0;
+            font-family: "Gilroy";
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #003465;
+            font-size: 16px;
+            padding: 10px 0;
+            width: 250;
+            height: 40;
+            border: none;
+            border-radius: 7.11px;
+            gap: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+          input.btn:hover {
+            background-color: #0056a8;
           }
 
+          h4 {
+            font-family: "Gilroy";
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+
+            a {
+              text-decoration: none;
+              color: #ffffff;
+            }
+          }
           h5 {
             text-align: center;
             margin-bottom: 24px;
+            font-family: "Gilroy";
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #ffffff;
           }
           div.social-btns {
             display: flex;
             justify-content: space-between;
+            margin-bottom: 24px;
             button {
+              border: 0.71px solid #bcbec0;
               border-radius: 7.11px;
-              border-width: 0.71px;
               padding: 9px 27.46px;
+              cursor: pointer;
+            }
+          }
+          h6 {
+            font-family: "Gilroy";
+            font-weight: 400;
+            font-size: 9.96px;
+            line-height: 100%;
+            text-align: center;
+            vertical-align: middle;
+            color: #ffffff;
+            span{
+              font-family: "Gilroy";
+              font-weight: 500;
             }
           }
         }
