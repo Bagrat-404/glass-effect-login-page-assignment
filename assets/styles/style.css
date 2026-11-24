@@ -18,6 +18,14 @@
   font-style: normal;
 }
 
+@keyframes rumble {
+    0%   { transform: translateX(0); }
+    25%  { transform: translateX(-3px); }
+    50%  { transform: translateX(3px); }
+    75%  { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -269,6 +277,11 @@ body {
               border-radius: 7.11px;
               padding: 9px 27.46px;
               cursor: pointer;
+              transition: transform;
+            }
+
+            button:hover{
+              animation: rumble 0.3s ease;
             }
           }
           h6 {
